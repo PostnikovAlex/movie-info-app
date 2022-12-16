@@ -1,3 +1,9 @@
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+  --black: black;
+}
+
 html,
 body {
   padding: 0;
@@ -9,6 +15,7 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+  color: red;
 }
 
 * {
@@ -21,6 +28,6 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background: white;
   }
 }
